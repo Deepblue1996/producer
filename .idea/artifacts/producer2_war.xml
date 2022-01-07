@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="producer2:war">
+    <output-path>$PROJECT_DIR$/producer2/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>producer2</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="producer2-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="producer2:war exploded" />
+    </root>
+  </artifact>
+</component>
